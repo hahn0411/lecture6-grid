@@ -1,0 +1,36 @@
+.row {
+	min-height: 50px;
+	background-color: pink;
+}
+
+.col {
+	display: inline-block;
+}
+
+.col-half {
+	background-color: yellow;
+	width: calc(50% - 5px);
+	min-height: 400px;
+}
+
+.col-half:first-child {
+	margin-right: 5px;
+}
+
+.col-half:last-child {
+	margin-left: 5px;
+}
+
+.col-space-right {
+	margin-right: 5px;
+}
+
+.col-space-left {
+	margin-left: 5px;
+}
+
+.col-thirds {
+	background-color: blue;
+	width: calc(33.3333333333% - 5px);
+	min-height: 100px;
+}
